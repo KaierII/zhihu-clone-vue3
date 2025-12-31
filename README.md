@@ -1,44 +1,40 @@
-# zhihudaily-clone
+# zhihudaily-clone (知乎日报/知乎高仿)
 
-This template should help get you started developing with Vue 3 in Vite.
+使用 Vue 3 + Vite + TypeScript + Pinia + Vue Router 开发的高仿知乎日报/问答社区项目。
 
-## Recommended IDE Setup
+## 技术栈
+- Vue 3 (Composition API)
+- Vite 5
+- TypeScript
+- Vue Router 4
+- Axios / fetch (API 请求)
+- Naive UI / Element Plus (UI 组件库，根据你用的)
+- ESLint + Prettier (代码规范)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 推荐开发环境
+- **IDE**：VS Code + Vue (Official) 插件
+- **浏览器**：Chrome/Edge + Vue.js devtools 扩展
+  - 开启 Chrome DevTools 的 "Custom Object Formatter"
 
-## Recommended Browser Setup
+## 快速开始
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+```bash
+# 安装依赖
+pnpm install   # 或 npm install / yarn
 
-## Customize configuration
+# 启动开发服务器（http://localhost:5173）
+pnpm dev
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+# 打包生产版本
+pnpm build
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+# 代码检查 & 修复
+pnpm lint
+项目结构
+textsrc/
+├── assets/           # 静态资源
+├── components/       # 公共组件
+├── views/            # 页面视图
+├── router/           # 路由配置
+├── api/              # API 接口封装
+└── main.ts           # 入口文件
