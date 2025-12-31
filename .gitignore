@@ -6,3 +6,4 @@ dist/
 *.swp
 .git-backup/
 *.sh   # 取消注释如果不想上传 sh 脚本
+*.sh
