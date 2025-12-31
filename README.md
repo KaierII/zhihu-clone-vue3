@@ -1,6 +1,6 @@
 # zhihudaily-clone (知乎日报/知乎高仿)
 
-使用 Vue 3 + Vite + TypeScript + Pinia + Vue Router 开发的高仿知乎日报/问答社区项目。
+使用 Vue 3 + Vite + TypeScript + Vue Router 开发的高仿知乎日报/问答社区项目。
 
 ## 技术栈
 - Vue 3 (Composition API)
