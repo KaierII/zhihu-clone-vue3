@@ -1,0 +1,9 @@
+/* src/styles/vant-theme.css */
+:root {
+  --van-primary-color: #0084ff;     /* 主色 */
+  --van-success-color: #07c160;
+  --van-danger-color: #ee0a24;
+  --van-warning-color: #ff976a;
+  --van-text-color: #1a1a1a;
+  --van-background: #fafafa;
+}

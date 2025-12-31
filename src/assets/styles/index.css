@@ -1,0 +1,46 @@
+/* src/assets/styles/index.css */
+/* 可以在这里定义一些全局的颜色变量、字体、重置样式等 */
+
+:root {
+  --van-primary-color: #1989fa; /* Vant 主题色，可根据知乎日报风格调整 */
+  --van-active-color: #f5f5f5; /* Vant 点击态背景色 */
+  --van-nav-bar-height: 46px;
+  --van-tabbar-height: 50px;
+}
+
+/* 兼容性样式 */
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 覆盖Vant NavBar的默认样式，使其更符合个人logo需求 */
+.van-nav-bar {
+  background-color: #fff;
+  border-bottom: 1px solid #f2f2f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* 轻微阴影 */
+}
+.van-nav-bar__title {
+  font-weight: bold;
+  font-size: 17px;
+}
+.van-nav-bar .van-icon {
+  color: #333;
+}
+.van-nav-bar .van-nav-bar__text {
+  color: #333;
+}
+
+/* 覆盖Vant Tabbar的默认样式 */
+.van-tabbar {
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05); /* 轻微阴影 */
+  background-color: #fff;
+}
+.van-tabbar-item__text {
+  font-size: 12px;
+}
