@@ -1,6 +1,6 @@
 # zhihudaily-clone (知乎日报/知乎高仿)
 
-使用 Vue 3 + Vite + TypeScript + Vue Router 开发的高仿知乎日报/问答社区项目。
+使用 Vue 3 + Vite + TypeScript + Vue Router 开发的高仿知乎日报项目。
 
 ## 技术栈
 - Vue 3 (Composition API)
@@ -8,7 +8,7 @@
 - TypeScript
 - Vue Router 4
 - Axios / fetch (API 请求)
-- Naive UI / Element Plus (UI 组件库，根据你用的)
+- Naive UI / Element Plus (UI 组件库)
 - ESLint + Prettier (代码规范)
 
 ## 推荐开发环境
